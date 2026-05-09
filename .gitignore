@@ -1,4 +1,3 @@
-# ---> Go
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -8,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+ech-middle
+ech-middle_*
 
 # Test binary, built with `go test -c`
 *.test
@@ -32,3 +33,12 @@ go.work.sum
 # .idea/
 # .vscode/
 
+Test/
+dist/
+
+# CA certificates and private keys
+*.pem
+*.key
+*.crt
+
+CLAUDE.md
